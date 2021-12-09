@@ -3,3 +3,24 @@
     height: 100vh;
     float: right;
 }
+
+#google-map{
+    width: 90%;
+    height: 100vh;
+    float: right;
+}
+
+.searchButton{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    
+}
+
+.returnButton{
+    /* width: 10%; */
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    display: inline;
+}
