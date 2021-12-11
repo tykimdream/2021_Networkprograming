@@ -85,10 +85,10 @@ img:hover{
 }
 #shop{
     float: right;
-    position: absolute;
+    position: relative;
     font-weight: bold;
     top : 20px;
-    right: 400px;
+    right: 100px;
 }
 #tip{
     margin: 10px;
