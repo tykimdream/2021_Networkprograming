@@ -10,7 +10,6 @@
     <script type ="text/javascript" src="plant.js"></script>
 </head>
 <body>
-
     <div>
         <section id="picture">
             <img id = '1' src="grid.jpg" onclick='count("water"); watering("1");'>
@@ -26,7 +25,9 @@
     </div>
 
     <div class = "bar">
+        <div>
         <b id ="day">1</b>번째 밤
+        </div>
         <div>
             남은 체력 : <span id = 'hp'>100</span>
         </div>
@@ -36,9 +37,9 @@
     </div>
 
 
-
     <!-- 작물들의 성장 상태 -->
     <table id = "plant_status">
+        <th>농장 상태</th>
         <tr>
             <td>1번 작물 상태 : <span id = 'one'>0</span> &nbsp</td>
         </tr>
@@ -69,16 +70,28 @@
     </table>
 
     <table id = "player_status">
-        <tr> 사용자 정보 </tr>
+        <th> 사용자 정보 </th>
         <tr>
-            <td>돈</td>
-            <td>돈</td>
-            <td>돈</td>
+            <td>물뿌리개</td>
+            <td><span id = "watering_can">1</span> 레벨</td>
         </tr>
-        
+        <tr>
+            <td>에너지 효율</td>
+            <td><span id = "energy_eff">1</span> 레벨</td>
+        </tr>
+        <tr>
+            <td>행동 횟수</td>
+            <td><span id = "act_count">0</span>회</td>
+        </tr>
     </table>
 
-    <footer id = "manual">
+    <div id = "shop">
+        <table>
+            <th>상점 탭</th>
+        </table>
+    </div>
+
+    <div id = "manual">
         <p>
         간단한 웹 게임입니다. 사용자는 각각의 밭을 누름으로써 밭에 물을 줄 수 있습니다.<br>
         물을 주면 해당 작물의 상태가 올라가게 되고, 에너지가 8 소모됩니다. <br>
@@ -89,7 +102,13 @@
 
         사용자는 여기서 획득한 골드로 사용자의 능력을 업그레이드 할 수 있습니다.
         </p>
-    </footer>
+    </div>
+
+    <!-- <div class="footer">
+        <p>제작자 : 김지환 윤혜린<br>
+            <span class="smallfooter">2021 2학기 DB Project</span>
+        </p>
+    </div> -->
 
 </body>
 </html>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
 section {
     position: absolute;
     top: 80px;
@@ -15,43 +17,55 @@ table {
     display: block;
     border-collapse: collapse;
   }
-th, td {
+th{
+    padding: 10px;
+    border-collapse: collapse;
+    font-size: 25px;
+}
+td {
     border: 1px solid #444444;
     padding: 10px;
 }
-  
 img:hover{
     cursor: pointer;
-    color: aliceblue;
 }
-
+button {
+    margin: 0;
+    padding: 0.5rem 1rem;
+  
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+  
+    display: inline-block;
+    width: auto;
+  
+    border: none;
+    border-radius: 4px;
+  }
 .bar{
-    font-size: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 2rem;
     float: right;
 }
+.footer {
+    width: 100%;
+    position: absolute;  
+    bottom: 0;
+    left: 0;
 
-#player{
-    display: inline;
-    position: absolute;
-    /* right:10px; */
-    left: 400px;
-    /* align-items : right; */
+    text-align: center;
+    color: rgb(132, 132, 177);
+    font-size: 14px;
+    background-color: rgb(222, 227, 233);
 }
-
-button {
-  /* 생략 */
-  margin: 0;
-  padding: 0.5rem 1rem;
-
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  text-align: center;
-  text-decoration: none;
-
-  display: inline-block;
-  width: auto;
-
-  border: none;
-  border-radius: 4px;
+#shop{
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 2rem;
+    float: right;
+    position: absolute;
+    top : 20px;
+    right: 500px;
 }
