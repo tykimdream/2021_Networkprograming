@@ -5,17 +5,19 @@ function count(type)  {
     const dayElemnt = document.getElementById('day');
     const actElement = document.getElementById('act_count');
     const moneyElement = document.getElementById('gold');
+    const canElement = document.getElementById('can_lev')
 
 
     let number = resultElement.innerText;
     let night = dayElemnt.innerText;
     let count = actElement.innerText;
     let money = moneyElement.innerText;
+    let can = canElement.innerText;
 
     // 더하기/빼기
     if(type === 'water') {
         if(parseInt(number) - 8 > 0){
-            number = parseInt(number) - (8);
+            number = parseInt(number) - (8-parseInt(can));
             count = parseInt(count)+1;
         }
         else{

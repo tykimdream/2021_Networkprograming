@@ -79,7 +79,7 @@
             <td><span id = "gold">500</span>원</td>
         </tr>
         <tr>
-            <td>물뿌리개</td>
+            <td>물주기</td>
             <td><span id = "can_lev">1</span> 레벨</td>
         </tr>
         <tr>
@@ -104,20 +104,24 @@
         <table>
             <th>상점 탭</th>
             <tr>
-                <td>물뿌리개 업그레이드</td>
-                <td><button onclick='shop("can_buy")'> 구매 </button></td>
+                <td>물주기 업그레이드</td>
+                <td><button onclick='shop("can_buy")'> 구매 </button> 
+                    &nbsp; <span id = "can_cost">150</span>원</td>
             </tr>
             <tr>
                 <td>체력 업그레이드</td>
-                <td><button onclick='shop("energy_buy")'> 구매 </button></td>
+                <td><button onclick='shop("energy_buy")'> 구매 </button> 
+                    &nbsp; <span id = "energy">150</span>원</td>
             </tr>
             <tr>
                 <td>비료 업그레이드</td>
-                <td><button onclick='shop("fac_buy")'> 구매 </button></td>
+                <td><button onclick='shop("fac_buy")'> 구매 </button> 
+                    &nbsp; <span id = "fev">150</span>원</td>
             </tr>
             <tr>
                 <td>종자 업그레이드</td>
-                <td><button onclick='shop("seed_buy")'> 구매 </button></td>
+                <td><button onclick='shop("seed_buy")'> 구매 </button> 
+                    &nbsp; <span id = "seed_cost">150</span>원</td>
             </tr>
         </table>
     </div>
@@ -125,7 +129,7 @@
     <div id = "tip">
         <p>
             골드 : 사용자가 소유한 골드를 보여줍니다. <br>
-            물뿌리개 : 업그레이드 수에 따라 1씩 감소합니다.(기본 -8) <br>
+            물뿌리개 : 업그레이드 수에 따라 1씩 감소합니다. (기본 -8) <br>
             체력 : 잠을 자면 70의 체력을 획득합니다.<br>
             비료 : 식물이 빨리 자랍니다. <br>
             종자 : 식물의 가격이 올라갑니다.
@@ -146,6 +150,7 @@
         10번째 밤마다 지원금을 획득합니다.<br><br>
 
         <span id = "license">제작자: 김지환 tykimdream@gmail.com <a href="https://www.instagram.com/kim_pikan/" target='_blank'>@kim_pikan</a></span>
+        <!-- <span class = "footer">제작자: 김지환 tykimdream@gmail.com <a href="https://www.instagram.com/kim_pikan/" target='_blank'>@kim_pikan</a></span> -->
         <br>
         <br>
         </p>

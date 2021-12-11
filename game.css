@@ -17,13 +17,19 @@ table {
     border-collapse: collapse;
   }
 th{
-    padding: 7px;
+    padding: 5px;
     border-collapse: collapse;
     font-size: 25px;
 }
 td {
-    border: 1px solid #444444;
+    border: 1px solid #aaa9a9;
     padding: 10px;
+}
+td:first-child {
+    border-left: none;
+}
+td:last-child{
+    border-right: none;
 }
 img:hover{
     cursor: pointer;
@@ -67,10 +73,12 @@ img:hover{
     text-align: center;
     color: rgb(132, 132, 177);
     font-size: 14px;
-    background-color: rgb(222, 227, 233);
+    background-color: rgb(229, 232, 236);
 }
 
-
+#day{
+    font-size: 34px;
+}
 #content{
     /* overflow: scroll; */
     background-color: rgb(243, 242, 233);
@@ -87,6 +95,7 @@ img:hover{
     float: right;
     position: relative;
     font-weight: bold;
+    font-size: 20px;
     top : 20px;
     right: 100px;
 }
@@ -101,7 +110,7 @@ img:hover{
     width: 99%;
     bottom: 0px;
     line-height: 25px;
-    background-color: cornsilk;
+    background-color: rgb(229, 236, 243);
 }
 #license{
     font-size: 20px;
