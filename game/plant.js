@@ -1,4 +1,6 @@
 function watering(params) {
+    const goldElement = document.getElementById('gold');
+
     const status_1 = document.getElementById('one');
     const status_2 = document.getElementById('two');
     const status_3 = document.getElementById('three');
@@ -9,56 +11,82 @@ function watering(params) {
     const status_8 = document.getElementById('eight');
     const status_9 = document.getElementById('nine');
 
-    // let water_1 = status_1.innerText;
-    // let water_2 = status_2.innerText;
-    // let water_3 = status_3.innerText;
-    // let water_4 = status_4.innerText;
-    // let water_5 = status_5.innerText;
-    // let water_6 = status_6.innerText;
-    // let water_7 = status_7.innerText;
-    // let water_8 = status_8.innerText;
-    // let water_9 = status_9.innerText;
+    let cash = parseInt(goldElement.innerText);
 
-
-    // if(params === "1"){
-    //     water_1 = parseInt(water_1)+2;
-    // } else if(params === "2"){
-    //     water_2 = parseInt(water_2)+2;
-    // }
-    
-    // status_1.innerText = water_1;
-    // status_2.innerText = water_2;
     pos = parseInt(params)
     switch(pos){
         case 1:
+            if(parseInt(status_1.innerText) >= 15){
+                status_1.innerText = 1;
+                cash += 150;
+            }else{
             status_1.innerText = parseInt(status_1.innerText)+1;
+            }
             break;
         case 2:
+            if(parseInt(status_2.innerText) >= 15){
+                status_2.innerText = 1;
+                cash += 150;
+            }else{
             status_2.innerText = parseInt(status_2.innerText)+1;
+            }
             break;
         case 3:
+            if(parseInt(status_3.innerText) >= 15){
+                status_3.innerText = 1;
+                cash += 150;
+            }else{
             status_3.innerText = parseInt(status_3.innerText)+1;
+            }
             break;
         case 4:
+            if(parseInt(status_4.innerText) >= 15){
+                status_4.innerText = 1;
+                cash += 150;
+            }else{
             status_4.innerText = parseInt(status_4.innerText)+1;
+            }
             break;
         case 5:
+            if(parseInt(status_5.innerText) >= 15){
+                status_5.innerText = 1;
+                cash += 150;
+            }else{
             status_5.innerText = parseInt(status_5.innerText)+1;
+            }
             break;
         case 6:
+            if(parseInt(status_6.innerText) >= 15){
+                status_6.innerText = 1;
+                cash += 150;
+            }else{
             status_6.innerText = parseInt(status_6.innerText)+1;
+            }
             break;
         case 7:
+            if(parseInt(status_7.innerText) >= 15){
+                status_7.innerText = 1;
+                cash += 150;
+            }else{
             status_7.innerText = parseInt(status_7.innerText)+1;
+            }
             break;
         case 8:
+            if(parseInt(status_8.innerText) >= 15){
+                status_8.innerText = 1;
+                cash += 150;
+            }else{
             status_8.innerText = parseInt(status_8.innerText)+1;
+            }
             break;
         case 9:
+            if(parseInt(status_9.innerText) >= 15){
+                status_9.innerText = 1;
+                cash += 150;
+            }else{
             status_9.innerText = parseInt(status_9.innerText)+1;
+            }
             break;
-
     }
-
-
+    goldElement.innerText = cash;
 }

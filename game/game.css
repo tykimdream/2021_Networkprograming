@@ -18,7 +18,7 @@ table {
     border-collapse: collapse;
   }
 th{
-    padding: 10px;
+    padding: 7px;
     border-collapse: collapse;
     font-size: 25px;
 }
@@ -29,7 +29,7 @@ td {
 img:hover{
     cursor: pointer;
 }
-button {
+.sleepButton {
     margin: 0;
     padding: 0.5rem 1rem;
   
@@ -49,6 +49,8 @@ button {
     font-family: "Noto Sans KR", sans-serif;
     font-size: 2rem;
     float: right;
+    margin:0;
+    padding:5px;
 }
 .footer {
     width: 100%;
@@ -62,10 +64,9 @@ button {
     background-color: rgb(222, 227, 233);
 }
 #shop{
-    font-family: "Noto Sans KR", sans-serif;
-    font-size: 2rem;
     float: right;
     position: absolute;
+    font-weight: bold;
     top : 20px;
     right: 500px;
 }
