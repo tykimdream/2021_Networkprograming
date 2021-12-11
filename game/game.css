@@ -1,0 +1,29 @@
+section {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    max-width:600px;
+}
+img {
+    max-width:150px;
+    display:inline-block;
+    width:30%;
+    padding: 5px;
+    border-radius: 10px;
+}
+table {
+    border: 1px solid #444444;
+    border-collapse: collapse;
+  }
+th, td {
+    border: 1px solid #444444;padding: 10px;
+}
+  
+img:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.bar{
+    font-size: large;
+}

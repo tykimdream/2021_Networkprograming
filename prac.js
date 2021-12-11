@@ -19,16 +19,18 @@ const array = ['가', '나', '다'];
 //     console.log(item);
 // }
 
-for(var i = 0; i<array.length; i++){
-    var index = i;
-    var item = array[i];
-    console.log(item + ' : ' + index);
-}
+// for(var i = 0; i<array.length; i++){
+//     var index = i;
+//     var item = array[i];
+//     console.log(item + ' : ' + index);
+// }
 
-array.forEach((item, index) => {
-    console.log(`${item} : ${index}`);
-})
+// array.forEach((item, index) => {
+//     console.log(`${item} : ${index}`);
+// })
+const array01 = ['김지환', '김규림'];
 
-array.forEach((item, index) => {
-    console.log(`${item} : ${index} `);
+array01.forEach((index, item) => {
+    console.log(index + ': ' + item);
+    console.log(`${index+1} : ${item} `);
 })

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm</title>
+    <link href="game.css" rel="stylesheet" type="text/css" />
+    <script type ="text/javascript" src="action.js"></script>
+    <!-- <script type ="text/javascript" src="plant.js"></script> -->
+</head>
+<body>
+
+    <div>
+        <section id="picture">
+            <img id = '1' src="grid.jpg" onclick='count("water"); watering("1");'>
+            <img id = '2' src="grid.jpg" onclick='count("water"); watering("2");'>
+            <img id = '3' src="grid.jpg" onclick='count("water"); watering("3");'>
+            <img id = '4' src="grid.jpg" onclick='count("water"); watering("4");'>
+            <img id = '5' src="grid.jpg" onclick='count("water"); watering("5");'>
+            <img id = '6' src="grid.jpg" onclick='count("water"); watering("6");'>
+            <img id = '7' src="grid.jpg" onclick='count("water"); watering("7");'>
+            <img id = '8' src="grid.jpg" onclick='count("water"); watering("8");'>
+            <img id = '9' src="grid.jpg" onclick='count("water"); watering("9");'>
+        </section>
+    </div>
+
+    <div class = "bar">
+        <b id ="day">1</b>번째 밤
+    </div>
+
+    <div class = "bar">
+        남은 체력 : <span id = 'hp'>100</span>
+    </div>
+
+    <div class = "bar">
+        <button onclick='count("sleep")'> 잠자기 </button>
+    </div>
+
+
+    <!-- 작물들의 성장 상태 -->
+    <table>
+        <tr>
+            <td>1번 작물 상태 : <span id = '1'>0</span> &nbsp</td>
+        </tr>
+        <tr>
+            <td>2번 작물 상태 : <span id = '2'>0</span> </td>
+        </tr>
+        <tr>
+            <td>3번 작물 상태 : <span id = '3'>0</span></td>
+        </tr>
+        <tr>
+            <td>4번 작물 상태 : <span id = '4'>0</span></td>
+        </tr>
+        <tr>
+            <td>5번 작물 상태 : <span id = '5'>0</span></td>
+        </tr>
+        <tr>
+            <td>6번 작물 상태 : <span id = '6'>0</span></td>
+        </tr>
+        <tr>
+            <td>7번 작물 상태 : <span id = '7'>0</span></td>
+        </tr>
+        <tr>
+            <td>8번 작물 상태 : <span id = '8'>0</span></td>
+        </tr>
+        <tr>
+            <td>9번 작물 상태 : <span id = '9'>0</span></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
