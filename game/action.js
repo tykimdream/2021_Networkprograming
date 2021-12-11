@@ -1,7 +1,7 @@
 const { parse } = require("path/posix");
 
 function count(type)  {
-    const resultElement = document.getElementById('result');
+    const resultElement = document.getElementById('hp');
     const dayElemnt = document.getElementById('day');
     
     let number = resultElement.innerText;
@@ -26,3 +26,5 @@ function count(type)  {
     resultElement.innerText = number;
     dayElemnt.innerText = night;
   }
+
+  
