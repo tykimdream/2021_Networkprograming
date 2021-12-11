@@ -58,6 +58,8 @@ img:hover{
     background-color: black;
 }
 .bar{
+    position: relative;
+    right: 20px;
     font-family: "Noto Sans KR", sans-serif;
     font-size: 2rem;
     float: right;
@@ -78,6 +80,7 @@ img:hover{
 
 #day{
     font-size: 34px;
+    color: rgb(85, 28, 99);
 }
 #content{
     /* overflow: scroll; */
