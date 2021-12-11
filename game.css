@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
-
 section {
     position: absolute;
     top: 80px;
-    left: 250px;
+    left: 30%;
     max-width:600px;
 }
 img {
@@ -14,7 +13,7 @@ img {
     border-radius: 10px;
 }
 table {
-    display: block;
+    display: inline;
     border-collapse: collapse;
   }
 th{
@@ -29,8 +28,10 @@ td {
 img:hover{
     cursor: pointer;
 }
+
+
 .sleepButton {
-    margin: 0;
+    margin-top: 20px;
     padding: 0.5rem 1rem;
   
     font-family: "Noto Sans KR", sans-serif;
@@ -42,9 +43,14 @@ img:hover{
     display: inline-block;
     width: auto;
   
-    border: none;
+    border: 1px solid black;
     border-radius: 4px;
-  }
+}
+.sleepButton:hover{
+    cursor: pointer;
+    color: yellow;
+    background-color: black;
+}
 .bar{
     font-family: "Noto Sans KR", sans-serif;
     font-size: 2rem;
@@ -63,10 +69,45 @@ img:hover{
     font-size: 14px;
     background-color: rgb(222, 227, 233);
 }
+
+
+#content{
+    /* overflow: scroll; */
+    background-color: rgb(243, 242, 233);
+}
+#plant_status{
+    position: relative;
+    left:20px;
+}
+#player_status{
+    position: relative;
+    left:50px;
+}
 #shop{
     float: right;
     position: absolute;
     font-weight: bold;
     top : 20px;
-    right: 500px;
+    right: 400px;
+}
+#tip{
+    margin: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+#manual{
+    margin: 0;
+    position: inherit;
+    width: 99%;
+    bottom: 0px;
+    line-height: 25px;
+    background-color: cornsilk;
+}
+#license{
+    font-size: 20px;
+    font-weight: bold;
+}
+#license a{
+    text-decoration: none;
+    color: yellowgreen;
 }
