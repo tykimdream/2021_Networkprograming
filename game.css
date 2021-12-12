@@ -1,128 +1,153 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+body {
+  background-color: rgb(243, 242, 233);
+}
 section {
-    position: absolute;
-    top: 80px;
-    left: 30%;
-    max-width:600px;
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  max-width: 600px;
 }
 img {
-    max-width:150px;
-    display:inline-block;
-    width:30%;
-    padding: 5px;
-    border-radius: 10px;
+  max-width: 150px;
+  display: inline-block;
+  width: 30%;
+  padding: 5px;
+  border-radius: 10px;
 }
 table {
-    display: inline;
-    border-collapse: collapse;
-  }
-th{
-    padding: 5px;
-    border-collapse: collapse;
-    font-size: 25px;
+  display: inline;
+  border-collapse: collapse;
+}
+th {
+  padding: 5px;
+  border-collapse: collapse;
+  font-size: 25px;
 }
 td {
-    border: 1px solid #aaa9a9;
-    padding: 10px;
+  border: 1px solid #aaa9a9;
+  padding: 10px;
 }
 td:first-child {
-    border-left: none;
+  border-left: none;
 }
-td:last-child{
-    border-right: none;
+td:last-child {
+  border-right: none;
 }
-img:hover{
-    cursor: pointer;
+img:hover {
+  cursor: pointer;
 }
 
+.title {
+  flex: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: rgb(136, 156, 201);
 
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 7px;
+}
 .sleepButton {
-    margin-top: 20px;
-    padding: 0.5rem 1rem;
-  
-    font-family: "Noto Sans KR", sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
-  
-    display: inline-block;
-    width: auto;
-  
-    border: 1px solid black;
-    border-radius: 4px;
+  margin-top: 20px;
+  padding: 0.5rem 1rem;
+
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+
+  display: inline-block;
+  width: auto;
+
+  border: 1px solid black;
+  border-radius: 4px;
 }
-.sleepButton:hover{
-    cursor: pointer;
-    color: yellow;
-    background-color: black;
+.sleepButton:hover {
+  cursor: pointer;
+  color: yellow;
+  background-color: black;
 }
-.bar{
-    position: relative;
-    right: 20px;
-    font-family: "Noto Sans KR", sans-serif;
-    font-size: 2rem;
-    float: right;
-    margin:0;
-    padding:5px;
+.bar {
+  position: relative;
+  top: 10px;
+  right: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 2rem;
+  float: right;
+  margin: 0;
+  padding: 5px;
 }
 .footer {
-    width: 100%;
-    position: absolute;  
-    bottom: 0;
-    left: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 
-    text-align: center;
-    color: rgb(132, 132, 177);
-    font-size: 14px;
-    background-color: rgb(229, 232, 236);
+  text-align: center;
+  color: rgb(132, 132, 177);
+  font-size: 14px;
+  background-color: rgb(229, 232, 236);
 }
-#day-container{
-    border : 5px solid black;
-    text-align: right;
+#day-container {
+  border: 5px solid black;
+  text-align: right;
 }
-#day{
-    font-size: 34px;
-    color: rgb(85, 28, 99);
+#day {
+  font-size: 34px;
+  color: rgb(85, 28, 99);
 }
-#content{
-    /* overflow: scroll; */
-    background-color: rgb(243, 242, 233);
+#content {
+  /* overflow: scroll; */
+  background-color: rgb(243, 242, 233);
 }
-#plant_status{
-    position: relative;
-    left:20px;
+#plant_status {
+  position: relative;
+  left: 20px;
+  top: 70px;
 }
-#player_status{
-    position: relative;
-    left:50px;
+#player_status {
+  position: relative;
+  left: 50px;
+  top: 70px;
 }
-#shop{
-    float: right;
-    position: relative;
-    font-weight: bold;
-    font-size: 20px;
-    top : 20px;
-    right: 100px;
+#shop {
+  float: right;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  top: 300px;
+
+  right: 2%;
 }
-#tip{
-    margin: 10px;
-    font-size: 20px;
-    line-height: 30px;
+#tip {
+  position: relative;
+  top: 150px;
+  margin: 10px;
+  font-size: 20px;
+  line-height: 30px;
 }
-#manual{
-    margin: 0;
-    position: inherit;
-    width: 99%;
-    bottom: 0px;
-    line-height: 25px;
-    background-color: rgb(229, 236, 243);
+#manual {
+  margin: 0;
+  position: absolute;
+  width: 99%;
+  bottom: 0px;
+  line-height: 25px;
+  background-color: rgb(229, 236, 243);
 }
-#license{
-    font-size: 20px;
-    font-weight: bold;
+#license {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  color: grey;
 }
-#license a{
-    text-decoration: none;
-    color: yellowgreen;
+#license a {
+  text-decoration: none;
+  color: yellowgreen;
 }

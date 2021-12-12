@@ -1,5 +1,8 @@
 "# 2021_Networkprograming" 
 
+접속 주소
+https://tykimdream.github.io/2021_Networkprograming/
+
 12.7
 프로젝트 '팜' 시작
 
