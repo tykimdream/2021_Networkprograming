@@ -9,7 +9,7 @@ function startTime() {
   m = checkTime(m);
   s = checkTime(s);
   document.getElementById("clock").innerHTML = year + "년 " + mon + "월 " + day + "일 " + h + ":" + m + ":" + s;
-  var t = setTimeout(startTime, 500);
+  var t = setTimeout(startTime(), 500);
 }
 
 function checkTime(i) {

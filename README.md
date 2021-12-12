@@ -1,4 +1,4 @@
-"# 2021_Networkprograming" 
+"# 2021_Networkprograming"
 
 접속 주소
 https://tykimdream.github.io/2021_Networkprograming/
@@ -16,9 +16,10 @@ https://tykimdream.github.io/2021_Networkprograming/
 12.12
 메뉴얼, 소개 작성
 
-------------------------------------------------
+---
 
 할일
+
 수확 이후 밭 쿨타임 3일 기능 구현
 강수 이벤트 발생 시, Adventage
 상점 아이템 기능 구현
