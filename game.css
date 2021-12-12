@@ -77,7 +77,10 @@ img:hover{
     font-size: 14px;
     background-color: rgb(229, 232, 236);
 }
-
+#day-container{
+    border : 5px solid black;
+    text-align: right;
+}
 #day{
     font-size: 34px;
     color: rgb(85, 28, 99);

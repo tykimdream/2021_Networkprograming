@@ -23,8 +23,8 @@ function count(type)  {
 
     // 더하기/빼기
     if(type === 'water') {
-        if(parseInt(number) - 8 > 0){
-            number = parseInt(number) - (8-parseInt(can));
+        if(parseInt(hp) - 8 > 0){
+            hp = parseInt(hp) - (8-parseInt(can));
             count = parseInt(count)+1;
         }
         else{
