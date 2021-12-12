@@ -7,13 +7,19 @@
     <title>문서 객체 선택</title>
     <script>
         window.onload = function(){
-            // var header = document.getElementById('header');
-            var header1 = document.querySelector('h1');
+            var output = '';
+            for(var i = 0;i<256;i++){
+                output += '<div></div>';
+            }
+            document.body.innerHTML = output;
 
-            // header.style.color = 'red';
-            // header.style.border = '1px solid black';
-            header1.style.backgroundColor = 'black';
-            
+            var divs = document.querySelectorAll('div');
+            for(var i = 0;i<divs.length;i++){
+                var div = divs[i];
+
+                div.style.height = '2px';
+                div.style.background = 'rgb(' + i + ',' + i +',' +i +')';
+            }
         }
     </script>
 </head>
@@ -21,7 +27,5 @@
     <h1 id = "header">Title</h1>
     <h1 id = "header">Title</h1>
     <h1 id = "header">Title</h1>
-    
-
 </body>
 </html>
