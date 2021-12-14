@@ -105,3 +105,20 @@ input {
   margin-top: 20px;
   margin-bottom: 15px;
 }
+#main_title {
+  flex: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: rgb(136, 156, 201);
+
+  height: 100px;
+  padding: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 7px;
+}
