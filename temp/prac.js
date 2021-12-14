@@ -9,7 +9,7 @@ const functionLiteral_new = () => {
     return 'a';
 }
 
-const array = ['가', '나', '다'];
+// const array = ['가', '나', '다'];
 
 // for(var i in array){
 //     console.log(array[i]);
@@ -33,4 +33,11 @@ const array01 = ['김지환', '김규림'];
 array01.forEach((index, item) => {
     console.log(index + ': ' + item);
     console.log(`${index+1} : ${item} `);
+})
+
+
+const array = ["김지환", "김규림"];
+
+array.forEach((index, item)=>{
+    console.log(index + " : " + item);
 })

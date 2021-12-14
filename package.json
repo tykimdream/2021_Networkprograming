@@ -1,0 +1,19 @@
+{
+  "name": "netpro",
+  "version": "1.0.0",
+  "description": "\"# 2021_Networkprograming\"",
+  "main": "action.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tykimdream/2021_Networkprograming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tykimdream/2021_Networkprograming/issues"
+  },
+  "homepage": "https://github.com/tykimdream/2021_Networkprograming#readme"
+}
