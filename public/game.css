@@ -133,21 +133,6 @@ img:hover {
   font-size: 20px;
   line-height: 30px;
 }
-#manual {
-  margin: 0;
-  position: absolute;
-  width: 99%;
-  bottom: 0px;
-  line-height: 25px;
-  background-color: rgb(229, 236, 243);
-}
-#license {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 40px;
-  color: grey;
-}
-#license a {
-  text-decoration: none;
-  color: yellowgreen;
+#exit {
+  float: right;
 }

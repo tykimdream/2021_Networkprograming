@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>사용자 추가 테스트</title>
-</head>
-<body>
-<h1>사용자 추가</h1>
-<form action="/process/adduser" method="post">
-아이디 : <input type="text" name="id" /><br/>
-비밀번호 : <input type="password" name="password" /><br/>
-사용자명 : <input type="text" name="name" /><Br/>
-<input type="submit" value="전송" name="" />
-</form>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="clock.js"></script>
+
+        <title>사용자 추가 테스트</title>
+    </head>
+    <body onload="startTime()">
+        <div id = "clock"></div>
+    <h1>사용자 추가</h1>
+        <form action="/process/adduser" method="post">
+            아이디 : <input type="text" name="id" /><br/>
+            비밀번호 : <input type="password" name="password" /><br/>
+            사용자명 : <input type="text" name="name" /><Br/>
+            <input type="submit" value="전송" name="" />
+        </form>
+    </body>
 </html>

@@ -128,26 +128,34 @@
             <tr>
                 <td>비료 업그레이드</td>
                 <td><button onclick='shop("fac_buy")'> 구매 </button> 
-                    &nbsp; <span id = "fev_cost">150</span>원</td>
+                    &nbsp; <span id = "fac_cost">150</span>원</td>
             </tr>
             <tr>
                 <td>종자 업그레이드</td>
                 <td><button onclick='shop("seed_buy")'> 구매 </button> 
                     &nbsp; <span id = "seed_cost">150</span>원</td>
             </tr>
+            <tr>
+                <td><button onclick='shop("refresh")'> 새로고침 </button> </td>
+            </tr>
         </table>
     </div>
-   
-    <!-- 설명란 -->
-    <div id = "tip">
-        <p>
-            골드 : 사용자가 소유한 골드를 보여줍니다. <br>
-            물뿌리개 : 업그레이드 수에 따라 1씩 감소합니다. (기본 -8) <br>
-            체력 : 잠을 자면 70의 체력을 획득합니다.<br>
-            비료 : 식물이 빨리 자랍니다. <br>
-            종자 : 식물의 가격이 올라갑니다. <br>
-            <i><b>나가거나 새로고침할 시 데이터가 소실될 수 있습니다.</b></i>
-        </p>
+
+    <div id = "button_line">
+        <!-- 설명란 -->
+        <div id = "tip">
+            <p>
+                골드 : 사용자가 소유한 골드를 보여줍니다. <br>
+                물뿌리개 : <i> 레벨 당 체력 감소량이 1씩 감소합니다. (기본 -8)</i> <br>
+                체력 : 잠을 자면 80의 체력을 획득합니다. <i> 레벨당 + 10 증가 ex) 2레벨 90 회복</i><br>
+                비료 : 식물이 빨리 자랍니다. <i> 레벨 당 작물 성장량 + 1</i><br>
+                종자 : 식물의 가격이 올라갑니다. <i> 레벨 당 작물 가격 + 100</i><br>
+                <i><b>나가거나 새로고침할 시 데이터가 소실될 수 있습니다.</b></i>
+            </p>
+        </div>
+        <div id = "exit">
+            sss
+        </div>
     </div>
 
 </body>
