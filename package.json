@@ -1,0 +1,32 @@
+{
+  "name": "netpro",
+  "version": "1.0.0",
+  "description": "\"# 2021_Networkprograming\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tykimdream/2021_Networkprograming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tykimdream/2021_Networkprograming/issues"
+  },
+  "homepage": "https://github.com/tykimdream/2021_Networkprograming#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-error-handler": "^1.1.0",
+    "express-session": "^1.17.2",
+    "http": "0.0.1-security",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.1",
+    "path": "^0.12.7",
+    "serve-static": "^1.14.1"
+  }
+}
