@@ -53,6 +53,10 @@ img:hover {
   font-weight: bold;
   border-radius: 7px;
 }
+.title:hover {
+  cursor: pointer;
+  background-color: rgb(137, 145, 184);
+}
 .sleepButton {
   margin-top: 20px;
   padding: 0.5rem 1rem;

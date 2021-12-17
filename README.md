@@ -1,25 +1,16 @@
 "# 2021_Networkprograming"
 
 접속 주소
-https://tykimdream.github.io/2021_Networkprograming/
+https://tykimdream.github.io/2021_Networkprograming/public/index.html
+
 http://127.0.0.1:3000/public/index.html
 
 12.7
 프로젝트 '팜' 시작
 
-12.11
-밭 구현
-농장 상태창 구현
-사용자 정보창 구현
-날씨 구현
-상점 구현
-
-12.12
-메뉴얼, 소개 작성
-
 ---
 
-할일
+ToDo List
 
 수확 이후 밭 쿨타임 3일 기능 구현
 강수 이벤트 발생 시, Adventage

@@ -22,11 +22,14 @@ function watering(params) {
   pos = parseInt(params);
   switch (pos) {
     case 1:
-      if (parseInt(status_1.innerText) >= 15) {
+      if (parseInt(status_1.innerText) > 15) {
         status_1.innerText = 1;
         cash += 150 + price_add;
       } else {
         status_1.innerText = parseInt(status_1.innerText) + water_add;
+      }
+      if (parseInt(status_1.innerText) > 2) {
+        status_1.setAttribute("src", "../img/6.jpg");
       }
       break;
     case 2:
