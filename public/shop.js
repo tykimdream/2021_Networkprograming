@@ -21,8 +21,12 @@ function shop(product) {
   switch (product) {
     case "can_buy":
       if (cash >= can_price) {
-        can = parseInt(can) + 1;
-        cash = cash - can_price;
+        if (parseInt(can) >= 7) {
+          alert("물주기 만렙입니다.");
+        } else {
+          can = parseInt(can) + 1;
+          cash = cash - can_price;
+        }
       } else {
         alert("골드가 부족합니다.");
       }
@@ -37,8 +41,12 @@ function shop(product) {
       break;
     case "fac_buy":
       if (cash >= fac_price) {
-        fac = parseInt(fac) + 1;
-        cash = cash - fac_price;
+        if (parseInt(fac) >= 15) {
+          alert("비료 만렙입니다.");
+        } else {
+          fac = parseInt(fac) + 1;
+          cash = cash - fac_price;
+        }
       } else {
         alert("골드가 부족합니다.");
       }
