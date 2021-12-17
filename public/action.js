@@ -57,6 +57,10 @@ function count(type) {
       hp = hp + 70 + energy;
       night = night + 1;
       money = money - 80;
+      // 10일마다 지원금 지급
+      if (night % 10 == 1) {
+        money += 100;
+      }
     } else {
       alert("돈이 부족합니다.");
     }
