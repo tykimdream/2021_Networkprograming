@@ -1,15 +1,7 @@
-"# 2021_Networkprograming"
-
 접속 주소
 https://tykimdream.github.io/2021_Networkprograming/public/index.html
 
 http://127.0.0.1:3000/public/index.html
-
-12.7
-프로젝트 '팜' 시작
-
-12.17
-프로젝트 제출
 
 ---
 
