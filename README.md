@@ -22,7 +22,7 @@
  -->
 
 접속 주소
-https://tykimdream.github.io/2021_Networkprograming/public/index.html
+https://tykimdream.github.io/Farm-Game/public/index.html
 
 http://127.0.0.1:3000/public/index.html
 
